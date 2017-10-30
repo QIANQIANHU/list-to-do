@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Create your own To Do List!</h1>
+      <form id="userInput">
+        <div class="form-group">
+          <label for="activity">Please enter the name of activity:</label>
+          <input id="activity" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="time">Please enter how many minutes it will take:</label>
+          <input id="time" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="coworker">Please enter who is going to work with you:</label>
+          <input id="coworker" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div>
+        <h2>Your To Do List:</h2>
+        <ul id="listDisplay"></ul>
+      </div>
+    </div>
+  </body>
+</html>
